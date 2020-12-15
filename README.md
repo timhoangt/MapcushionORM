@@ -47,33 +47,26 @@ mysql> DROP DATABASE mapcushion;
 
 There are pauses in the modification of data so that we get different timestamps later on when viewing history.
 
-<h5>2 tenants</h5>
+- 2 tenants
 
-<h5>Both tenants get pre-defined system roles and 1 tenant has at least 3 custom roles</h5>
+- Both tenants get pre-defined system roles and 1 tenant has at least 3 custom roles
 
-<h5>10 users per tenant where 2 users exist in both tenants</h5>
+- 10 users per tenant where 2 users exist in both tenants
+    - 8 of the users in each client have id information recorded
+    - 30 assignments of roles to users, some users have more than 1 role assigned
+    - 5 user records are modified (name change, change of address, phone number, etc) after they are created
 
-- 8 of the users in each client have id information recorded
+- 20 Beacons per tenant
 
-- 30 assignments of roles to users, some users have more than 1 role assigned
+- 2 locations per tenant
+    - 1 location must has > 1 floor
+    - 10 beacons should be assigned locations on floors
 
-- 5 user records are modified (name change, change of address, phone number, etc) after they are created
+- 8 check ins of users and at least 1 in each tenant
+    - at least one checkin in each of the statuses
+    - Changes to status (example: moving from Just Arrived to checked in)
 
-<h5>20 Beacons per tenant</h5>
-
-<h5>2 location per tenant</h5>
-
-- 1 location must has > 1 floor
-
-- 10 beacons should be assigned locations on floors
-
-<h5>8 check ins of users and at least 1 in each tenant</h5>
-
-- at least one checkin in each of the statuses
-
-- Changes to status (example: moving from Just Arrived to checked in)
-
-<h5>20 reported beacons by user devices</h5>
+- 20 reported beacons by user devices
 
 <h3>Queries for Mapcushion Database</h3>
 
