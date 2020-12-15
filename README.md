@@ -26,7 +26,7 @@ MySQL settings Version 5.7 only!!!!!!!! (no support for version 8)
 
 <h3>Run the Mapcushion ORM application<h3> 
 
-go into the main folder and performing the following in your Command Line.
+Go into the main folder and performing the following in your Command Line.
 ```
 gradle run
 ```
