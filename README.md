@@ -25,6 +25,7 @@ MySQL settings Version 5.7 only!!!!!!!! (no support for version 8)
 ```
 
 <h3>Run the Mapcushion ORM application<h3> 
+
 go into the main folder and performing the following in your Command Line.
 ```
 gradle run
@@ -43,6 +44,7 @@ mysql> DROP DATABASE mapcushion;
 ```
 
 <h3>Data in Mapcushion Database</h3>
+
 There are pauses in the modification of data so that we get different timestamps later on when viewing history.
 
 <h5>2 tenants<h5>
