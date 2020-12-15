@@ -50,6 +50,7 @@ There are pauses in the modification of data so that we get different timestamps
 <h5>Both tenants get pre-defined system roles and 1 tenant has at least 3 custom roles<h5>
 
 <h5>10 users per tenant where 2 users exist in both tenants<h5>
+
 -8 of the users in each client have id information recorded
 
 -30 assignments of roles to users, some users have more than 1 role assigned
@@ -59,11 +60,13 @@ There are pauses in the modification of data so that we get different timestamps
 <h5>20 Beacons per tenant<h5>
 
 <h5>2 location per tenant<h5>
+
 -1 location must has > 1 floor
 
 -10 beacons should be assigned locations on floors
 
 <h5>8 check ins of users and at least 1 in each tenant<h5>
+
 -at least one checkin in each of the statuses
 
 -Changes to status (example: moving from Just Arrived to checked in)
@@ -71,7 +74,8 @@ There are pauses in the modification of data so that we get different timestamps
 <h5>20 reported beacons by user devices<h5>
 
 <h3>Queries for Mapcushion Database</h3>
--all tenants, show the name of the tenant
+
+-all tenants
 
 -all users for each tenant
 
