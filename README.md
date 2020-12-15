@@ -24,7 +24,8 @@ MySQL settings Version 5.7 only!!!!!!!! (no support for version 8)
     fdfSettings.DB_PROTOCOL = DatabaseUtil.DatabaseProtocol.JDBC_MYSQL;
 ```
 
-Run the Mapcushion ORM application by going into the main folder and performing the following in your Command Line.
+<h3>Run the Mapcushion ORM application<h3> 
+go into the main folder and performing the following in your Command Line.
 ```
 gradle run
 ```
@@ -50,26 +51,36 @@ There are pauses in the modification of data so that we get different timestamps
 
 <h5>10 users per tenant where 2 users exist in both tenants<h5>
 -8 of the users in each client have id information recorded
+
 -30 assignments of roles to users, some users have more than 1 role assigned
+
 -5 user records are modified (name change, change of address, phone number, etc) after they are created
 
 <h5>20 Beacons per tenant<h5>
 
 <h5>2 location per tenant<h5>
 -1 location must has > 1 floor
+
 -10 beacons should be assigned locations on floors
 
 <h5>8 check ins of users and at least 1 in each tenant<h5>
 -at least one checkin in each of the statuses
+
 -Changes to status (example: moving from Just Arrived to checked in)
 
 <h5>20 reported beacons by user devices<h5>
 
 <h3>Queries for Mapcushion Database</h3>
 -all tenants, show the name of the tenant
+
 -all users for each tenant
+
 -2 users and their associated roles
+
 -5 users that were modified. Outputing the original and modified records including the time range represented by each
+
 -all checkins by tenant
+
 -for a checkin that has gone through the complete cycle show the history of the events
+
 -all the beacons located on floors in buildings for tenants
